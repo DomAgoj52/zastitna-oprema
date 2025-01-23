@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web trgovina za prodaju osobne zaštitne opreme">
+    <title>Zaštitna Oprema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Zaštitna Oprema</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Početna</a></li>
+                <li><a href="#proizvodi">Proizvodi</a></li>
+                <li><a href="#o-nama">O nama</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Početna stranica -->
+    <section id="home" class="hero">
+        <h2>Dobrodošli u našu trgovinu osobne zaštitne opreme!</h2>
+        <p>Ovdje možete pronaći visokokvalitetnu zaštitu za vašu sigurnost.</p>
+        <button><a href="#proizvodi">Pogledajte proizvode</a></button>
+    </section>
+
+    <!-- Proizvodi -->
+    <section id="proizvodi" class="products">
+        <h2>Popularni Proizvodi</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="rukavice.jpg" alt="Zaštitne rukavice">
+                <h3>Zaštitne Rukavice</h3>
+                <p>Visoka kvaliteta za maksimalnu sigurnost na radu.</p>
+                <button>Dodaj u košaricu</button>
+            </div>
+            <div class="product-item">
+                <img src="maske.jpg" alt="Zaštitne maske">
+                <h3>Zaštitne Maske</h3>
+                <p>Pruža odličnu zaštitu od štetnih čestica.</p>
+                <button>Dodaj u košaricu</button>
+            </div>
+            <div class="product-item">
+                <img src="kacige.jpg" alt="Zaštitne kacige">
+                <h3>Zaštitne Kacige</h3>
+                <p>Izdržljive kacige za sigurnost na gradilištu.</p>
+                <button>Dodaj u košaricu</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- O nama -->
+    <section id="o-nama" class="about-us">
+        <h2>O nama</h2>
+        <p>Naša misija je pružiti visokokvalitetnu osobnu zaštitnu opremu koja osigurava sigurnost na radnom mjestu. Svi naši proizvodi udovoljavaju najvišim sigurnosnim standardima.</p>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="contact">
+        <h2>Kontaktirajte nas</h2>
+        <form action="#" method="post">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Poruka:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Pošaljite</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Zaštitna Oprema - Sva prava pridržana</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
